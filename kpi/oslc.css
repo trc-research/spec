@@ -1,0 +1,14 @@
+body {
+	  padding: 2em 1em 2em 70px;
+	  margin: 0;
+	  font-family: sans-serif;
+	  color: black;
+	  background: white;
+	  background-image: url("./imgs/body-type.png");
+	  background-position: top left;
+	  background-attachment: fixed;
+	  background-repeat: no-repeat;
+}
+p{text-align:justify}
+ul li{text-align:justify}
+ol li{text-align:justify}

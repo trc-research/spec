@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+
     
 	<script src='respec-w3c-common-modified.js' async class='remove'></script>
     <script class='remove'>
@@ -97,8 +99,9 @@
       };
     </script>
 
+
   </head>
-  <body>
+  <body onload="ensureBG()">
     <section id='abstract'>
       <p>
         This family of documents defines the Open Services for Lifecycle Collaboration Knowledge Management and Definition specification, also known as OSLC KM. These documents collectively define the OSLC KM 1.0 specification. This specification supports key REST APIs for Knowledge Management systems. OSLC KM 1.0 takes an open, loosely coupled approach to specific lifecycle integration scenarios. The scenarios and this V1.0 specification were created by the Knowledge Reuse Group (UC3M) and The Reuse Company (TRC). 
@@ -1409,25 +1412,12 @@
 		<li> HTML presentation of the RDFS Schema of the OSLC KM V1.0 Specification Vocabulary - <a href="FIXME"KMSpecificationVocabularyV2</a>.</li>
 		</ul> 
     </section>
-	<style>
-		body {
-			
-			  padding: 2em 1em 2em 70px;
-			  margin: 0;
-			  font-family: sans-serif;
-			  color: black;
-			  background: white;
-			  background-image: url("./imgs/body-type.png");
-			  background-position: top left;
-			  background-attachment: fixed;
-			  background-repeat: no-repeat;
-		}
-		p{text-align:justify}
-		ul li{text-align:justify}
-		ol li{text-align:justify}
-	</style>
 	
-	<script>
+	
+
+
+
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -1435,7 +1425,18 @@
 
   ga('create', 'UA-64917693-1', 'auto');
   ga('send', 'pageview');
-
 </script>
+
+<!--Hack style-->
+
+<link rel="stylesheet" href="oslc.css"/>
+	
+<script>
+function ensureBG() {
+    document.body.style.backgroundImage = "url('./imgs/body-type.png')";
+}
+</script>
+
+
   </body>
 </html>
