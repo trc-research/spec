@@ -95,9 +95,9 @@
   <body onload="ensureBG()">
     <section id='abstract'>
       <p>
-        This family of documents defines the Open Services for Lifecycle Collaboration Key Performance Indicators Management and Definition specification, also known as OSLC KPI. These documents collectively define the OSLC KPI 1.0 specification. This specification supports key REST APIs for Key Performance Indicator systems. OSLC KPI 1.0 takes an open, loosely coupled approach to specific lifecycle integration scenarios. The scenarios and this V1.0 specification were created by the Knowledge Reuse Group (UC3M) and The Reuse Company (TRC). 
+        This family of documents defines the Open Services for Lifecycle Collaboration Key Performance Indicators (KPIs) Management and Definition specification, also known as OSLC KPI. These documents collectively define the OSLC KPI 1.0 specification. This specification supports key REST APIs for Key Performance Indicator systems. OSLC KPI 1.0 takes an open, loosely coupled approach to specific lifecycle integration scenarios. The scenarios and this V1.0 specification were created by the Knowledge Reuse Group (UC3M) and The Reuse Company (TRC). 
       </p>
-	  <p>This specification builds on the Open Services for Lifecycle Collaboration (OSLC) Core v2.0 Specification to define the resources, properties and operations supported by an OSLC Requirements Definition and Management (OSLC-RM) provider.
+	  <p>This specification builds on the Open Services for Lifecycle Collaboration (OSLC) Core v2.0 Specification to define the resources, properties and operations supported by an OSLC KPIs Definition and Management (OSLC-KPI) provider.
 	  </p>
 	  
 	  <p>
@@ -819,10 +819,10 @@
   </p>
 
 	<h3>Media Types </h3>
-	<p>To identify a format of RDF/XML, the media type used for RM resource representations <strong>MUST</strong> be <code>application/rdf+xml</code>. The usage of the OSLC RM 1.0 defined media types of <code>application/x-oslc-rm-requirement-1.0+xml</code>, <code>application/x-oslc-rm-requirement-collection-1.0+xml</code>, <code>application/x-oslc-rm-service-description-1.0+xml</code> and <code>application/x-oslc-disc-service-provider-catalog+xml</code> is deprecated.
+	<p>To identify a format of RDF/XML, the media type used for RM resource representations <strong>MUST</strong> be <code>application/rdf+xml</code>. The usage of the OSLC RM 1.0 defined media types of <code>application/x-oslc-kpi-kpi-1.0+xml</code>, <code>application/x-oslc-kpi-kpi-collection-1.0+xml</code>, <code>application/x-oslc-kpi-service-description-1.0+xml</code> and <code>application/x-oslc-disc-service-provider-catalog+xml</code> is deprecated.
 	</p>
 	<h3>Requesting formats </h3>
-	<p>RM 1.0 consumers wanting to request 1.0 resource formats will not need to change if they used 1.0 defined media types ( <code>application/x-oslc-rm*</code>), see OSLC-RM 1.0. RM 2.0 consumers should use media types as defined in this specification for requests, excluding the OSLC RM 1.0 specific media types ( <code>application/x-oslc-rm*</code>). RM consumers supporting both 1.0 and 2.0, should request request both 1.0 and 2.0 media types on HTTP GET requests as usually done with HTTP request parameter <code>Accept</code> giving appropriate quality (See HTTP Accept) weighting to help distinguish their preferred content.
+	<p>RM 1.0 consumers wanting to request 1.0 resource formats will not need to change if they used 1.0 defined media types ( <code>application/x-oslc-kpi*</code>), see oslc-kpi 1.0. RM 2.0 consumers should use media types as defined in this specification for requests, excluding the OSLC RM 1.0 specific media types ( <code>application/x-oslc-kpi*</code>). RM consumers supporting both 1.0 and 2.0, should request request both 1.0 and 2.0 media types on HTTP GET requests as usually done with HTTP request parameter <code>Accept</code> giving appropriate quality (See HTTP Accept) weighting to help distinguish their preferred content.
 	</p>
 	<p>For additional guidance, a KPI 1.0 consumer or provider <strong>MAY</strong> reference the <code>OSLC-Core-Version		</code> HTTP header with a value of <code>1.0</code>.
 	</p>
