@@ -16,7 +16,7 @@
           specStatus:           "ED",
           
           // the specification's short name, as in http://www.w3.org/TR/short-name/
-          shortName:            "oslc-km",
+          shortName:            "km",
 
           // if your specification has a subtitle that goes below the main
           // formal title, define it here
@@ -426,7 +426,7 @@
 	 <p>This specification reserves, for possible future use, the use of the HTTP header <code>OSLC-KM-Version</code>. OSLC Providers <strong>MUST NOT</strong> use this HTTP header.
 	 </p>
 	  <h3>Namespaces</h3>
-	  <p> In addition to the namespace URIs and namespace prefixes <code>oslc</code>, <code>rdf</code>, <code>dcterms</code> and <code>foaf</code> defined in the <a href="http://open-services.net/bin/view/Main/OslcCoreSpecification">Core Specification Version 2.0</a>, OSLC KM defines the namespace URI of <code>http://trc-research.org/spec/km/</code> with a preferred namespace prefix of <code>oslc_km</code>.
+	  <p> In addition to the namespace URIs and namespace prefixes <code>oslc</code>, <code>rdf</code>, <code>dcterms</code> and <code>foaf</code> defined in the <a href="http://open-services.net/bin/view/Main/OslcCoreSpecification">Core Specification Version 2.0</a>, OSLC KM defines the namespace URI of <code>http://trc-research.github.io/spec/km/</code> with a preferred namespace prefix of <code>oslc_km</code>.
 	  <p>Furthermore, the SKOS (Simple Knowledge Organization System), a W3C Recommendation, is also defined through the namespace: <code>http://www.w3.org/2004/02/skos/core</code>  and prefix: <code>skos</code>. Other semantic-based vocabularies will use the <em>de facto</em> namespace and prefix that can be searched using the service: <a href="http://prefix.cc">Prefix.cc</a>.
 	  <h3>Resource Formats</h3>
 	  <p>In addition to the requirements for <a href="http://open-services.net/bin/view/Main/OslcCoreSpecification#OslcDefinedResourceRepresentations">Core Specification Version 2.0 - OSLC Defined Resource Representations</a>, this section outlines further refinements and restrictions.
@@ -632,17 +632,17 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/term" title="oslc_km:term"><code>oslc_km:term</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/term" title="oslc_km:term"><code>oslc_km:term</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Either Resource or Local Resource</td>
 			<td>Either Reference or Inline</td>
-			<td><a href="http://trc-research.org/spec/km/Concept" title="oslc_km:Concept"><code>oslc_km:Concept</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/Concept" title="oslc_km:Concept"><code>oslc_km:Concept</code></a></td>
 			<td>The lexical form of this artifact (apart from title and description). It is an URI to a concept.</td>
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/artifact-type" title="oslc_km:artifact type"><code>oslc_km:artifact-type</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/artifact-type" title="oslc_km:artifact type"><code>oslc_km:artifact-type</code></a></td>
 			<td>Zero-or-one</td>
 			<td>True</td>
 			<td>Either Resource or Local Resource</td>
@@ -662,7 +662,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/metaproperties" title="oslc_km:metaproperties"><code>oslc_km:metaproperties</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/metaproperties" title="oslc_km:metaproperties"><code>oslc_km:metaproperties</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Either Resource or Local Resource</td>
@@ -672,7 +672,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/owned-artifacts" title="oslc_km:owned_artifacts"><code>oslc_km:owned-artifacts</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/owned-artifacts" title="oslc_km:owned_artifacts"><code>oslc_km:owned-artifacts</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Either Resource or Local Resource</td>
@@ -682,7 +682,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/alt-visualization" title="oslc_km:alt visualization"><code>oslc_km:alt-visualization</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/alt-visualization" title="oslc_km:alt visualization"><code>oslc_km:alt-visualization</code></a></td>
 			<td>Zero-or-many</td>
 			<td>False</td>
 			<td>Resource</td>
@@ -692,7 +692,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/preferred-visualization" title="oslc_km:preferred visualization"><code>oslc_km:preferred-visualization</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/preferred-visualization" title="oslc_km:preferred visualization"><code>oslc_km:preferred-visualization</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Resource</td>
@@ -702,7 +702,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/interpretation" title="oslc_km:interpretation"><code>oslc_km:interpretation</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/interpretation" title="oslc_km:interpretation"><code>oslc_km:interpretation</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Resource</td>
@@ -712,7 +712,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/traced-by" title="oslc_km:traced-by"><code>oslc_km:traced-by</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/traced-by" title="oslc_km:traced-by"><code>oslc_km:traced-by</code></a></td>
 			<td>Zero-or-many</td>
 			<td>False</td>
 			<td>Resource</td>
@@ -722,7 +722,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/traces-to" title="oslc_km:traces-to"><code>oslc_km:traces-to</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/traces-to" title="oslc_km:traces-to"><code>oslc_km:traces-to</code></a></td>
 			<td>Zero-or-many</td>
 			<td>False</td>
 			<td>Resource</td>
@@ -732,12 +732,12 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/trace-type" title="oslc_km:trace type"><code>oslc_km:trace-type</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/trace-type" title="oslc_km:trace type"><code>oslc_km:trace-type</code></a></td>
 			<td>Exactly-one</td>
 			<td>True</td>
 			<td>Resource</td>
 			<td>Either Reference or Inline</td>
-			<td><a href="http://trc-research.org/spec/km/Concept" title="oslc_km:Concept"><code>oslc_km:Concept</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/Concept" title="oslc_km:Concept"><code>oslc_km:Concept</code></a></td>
 			<td>A link to a concept that explains how the trace has been created, etc. This element must be linked to the "trace" node (if any).</td>
 
 		</tr>
@@ -762,7 +762,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/access" title="oslc_km:access"><code>oslc_km:access</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/access" title="oslc_km:access"><code>oslc_km:access</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Either Resource or Local Resource</td>
@@ -782,7 +782,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/contents" title="oslc_km:contents"><code>oslc_km:contents</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/contents" title="oslc_km:contents"><code>oslc_km:contents</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>String</td>
@@ -792,7 +792,7 @@
 
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/sparql-endpoint" title="oslc_km:sparql endpoint"><code>oslc_km:sparql-endpoint</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/sparql-endpoint" title="oslc_km:sparql endpoint"><code>oslc_km:sparql-endpoint</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Resource</td>
@@ -828,21 +828,21 @@
 			<td>The unique identifier for this metaproperty</td>
 		</tr>
 		<tr>
-			<td ><a href="http://trc-research.org/spec/km/tag" title="oslc_km:tag"><code>oslc_km:tag</code></a></td>
+			<td ><a href="http://trc-research.github.io/spec/km/tag" title="oslc_km:tag"><code>oslc_km:tag</code></a></td>
 			<td>Exactly-one</td>
 			<td>False</td>
 			<td>Either Resource or Local Resource</td>
 			<td>Either Reference or Inline</td>
-			<td><a href="http://trc-research.org/spec/km/Concept" title="oslc_km:Concept"><code>oslc_km:Concept</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/Concept" title="oslc_km:Concept"><code>oslc_km:Concept</code></a></td>
 			<td>A tag for this metaproperty represented through a concept or even any resource.</td>
 		</tr>
 		<tr>
-			<td ><a href="http://trc-research.org/spec/km/value" title="oslc_km:value"><code>oslc_km:value</code></a></td>
+			<td ><a href="http://trc-research.github.io/spec/km/value" title="oslc_km:value"><code>oslc_km:value</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Either Resource or Local Resource</td>
 			<td>Either Reference or Inline</td>
-			<td><a href="http://trc-research.org/spec/km/Concept" title="oslc_km:Concept"><code>oslc_km:Concept</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/Concept" title="oslc_km:Concept"><code>oslc_km:Concept</code></a></td>
 			<td>A value for this metaproperty represented through a concept or even any resource.</td>
 		</tr>
 		</tbody>
@@ -873,7 +873,7 @@
 			<td>The unique identifier for this RSHP. It is now an string but it would be better a skos:Concept to avoid broken links between pieces of data.</td>
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/semantics" title="oslc_km:semantics"><code>oslc_km:semantics</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/semantics" title="oslc_km:semantics"><code>oslc_km:semantics</code></a></td>
 			<td>Zero-or-one</td>
 			<td>True</td>
 			<td>Either Resource or Local Resource</td>
@@ -882,7 +882,7 @@
 			<td>The concept (property) that represents the semantics of this relationship.</td>
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/from" title="oslc_km:from"><code>oslc_km:from</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/from" title="oslc_km:from"><code>oslc_km:from</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Resource</td>
@@ -892,7 +892,7 @@
 		Status: the name of this property is still open.</td>
 		</tr>
 		<tr>
-			<td><a href="http://trc-research.org/spec/km/to" title="oslc_km:to"><code>oslc_km:to</code></a></td>
+			<td><a href="http://trc-research.github.io/spec/km/to" title="oslc_km:to"><code>oslc_km:to</code></a></td>
 			<td>Zero-or-one</td>
 			<td>False</td>
 			<td>Resource</td>
@@ -1255,9 +1255,9 @@
 	<section>
 	<h2>KM Service Provider Capabilities </h2>
 	<h3>Service Provider Resources </h3>
-	<p>Service providers <strong>MUST</strong> provide one or more <code>oslc:ServiceProvider</code> resources as defined by <a href="http://openservices.net/bin/view/Main/OslcCoreSpecification#Service_Provider_Resources">Core Specification Version 2.0 - Service Provider Resource</a>. Discovery of OSLC Service Provider Resources <strong>MAY</strong> be via one or more OSLC Service Provider Catalog Resources, or may be discovered by some other and/or additional Provider-specific means outwith the scope of this specification. The <code>oslc:Service</code> resources referenced by this <code>oslc:ServiceProvider</code> <strong>MUST</strong> have an <code>oslc:domain</code> of <code>http://trc-research.org/spec/km/</code>.</p>
+	<p>Service providers <strong>MUST</strong> provide one or more <code>oslc:ServiceProvider</code> resources as defined by <a href="http://openservices.net/bin/view/Main/OslcCoreSpecification#Service_Provider_Resources">Core Specification Version 2.0 - Service Provider Resource</a>. Discovery of OSLC Service Provider Resources <strong>MAY</strong> be via one or more OSLC Service Provider Catalog Resources, or may be discovered by some other and/or additional Provider-specific means outwith the scope of this specification. The <code>oslc:Service</code> resources referenced by this <code>oslc:ServiceProvider</code> <strong>MUST</strong> have an <code>oslc:domain</code> of <code>http://trc-research.github.io/spec/km/</code>.</p>
 	
-	<p>Service providers <strong>MAY</strong> provide one more more <code>oslc:ServiceProviderCatalog</code> resources as defined by <a href="http://openservices.net/bin/view/Main/OslcCoreSpecification#Service_Provider_Catalog_Resources">Core Specification Version 2.0 - Service Provider Resources</a>. Any such catalog resources <strong>MUST</strong> include at least one <code>oslc:domain</code> of <code>http://trc-research.org/spec/km/</code>. Discovery of top-level OSLC Service Provider Catalog Resources is outwith the scope of this specification.
+	<p>Service providers <strong>MAY</strong> provide one more more <code>oslc:ServiceProviderCatalog</code> resources as defined by <a href="http://openservices.net/bin/view/Main/OslcCoreSpecification#Service_Provider_Catalog_Resources">Core Specification Version 2.0 - Service Provider Resources</a>. Any such catalog resources <strong>MUST</strong> include at least one <code>oslc:domain</code> of <code>http://trc-research.github.io/spec/km/</code>. Discovery of top-level OSLC Service Provider Catalog Resources is outwith the scope of this specification.
 	</p>
 	<p>Service providers <strong>MUST</strong> give an <code>oslc:serviceProvider</code> property on all OSLC Defined Resources. This property <strong>MUST</strong> refer to an appropriate <code>oslc:ServiceProvider</code> resource.
 	</p>
