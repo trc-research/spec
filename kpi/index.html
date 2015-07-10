@@ -4,11 +4,24 @@
     <title>OSLC KPI-Key Performance Indicators</title>
     <meta charset='utf-8'>
 	<!--For Bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" media="all">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
+    <style>
+
+.visible-print {
+    display: block !important;
+}
+
+.hidden-print {
+    display: none !important;
+}
+div.somechart { 
+   page-break-after: always; 
+   page-break-inside: avoid;
+}
+	</style>
 	<script src='respec-w3c-common-modified.js' async class='remove'></script>
     <script class='remove'>
       var respecConfig = {
@@ -875,8 +888,8 @@
 		<li> XML Namespaces - <a href="http://www.w3.org/TR/REC-xml-names/" target="_top">Namespaces in XML 1.0 (Third Edition)</a></li> 
 		<li> XML Base - <a href="http://www.w3.org/TR/xmlbase/" target="_top">XML Base (Second Edition)</a></li> 
 		<li> XSD Datatypes - <a href="http://www.w3.org/TR/xmlschema-2" target="_top">XML Schema Part 2: Datatypes Second Edition</a></li> 
-		<li> RDFS Schema of the OSLC KPI V1.0 Specification Vocabulary - <a href="#" target="_top">RDFS for KM</a>. This is for information purposes only and is non-normative.</li> 
-		<li> HTML presentation of the RDFS Schema of the OSLC KPI V1.0 Specification Vocabulary - <a href="#">KMSpecificationVocabularyV2</a>.</li>
+		<li> RDFS Schema of the OSLC KPI V1.0 Specification Vocabulary - <a href="#" target="_top">RDFS for KPI</a>. This is for information purposes only and is non-normative.</li> 
+		<li> HTML presentation of the RDFS Schema of the OSLC KPI V1.0 Specification Vocabulary - <a href="#">KPI Specification Vocabulary V1.0</a>.</li>
 		</ul> 
     </section>
 	
